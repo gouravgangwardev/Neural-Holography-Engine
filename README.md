@@ -96,12 +96,12 @@ Camera → GPU Processor → Web Renderer → Transparent Display → Gesture Se
 
 ## Performance Expectations
 
-| Module | Accuracy | Speed | Resource Load | Current Readiness |
-|---------|-----------|--------|----------------|-------------------|
-| 2D→3D Reconstruction (TripoSR) | 94 % | 0.5 s | Moderate GPU | ✅ Ready |
-| Mesh Refinement | 90 % | 2 s | Low | ✅ Ready |
-| Gesture Control | 99 % | Real-Time | Low | ✅ Ready |
-| Projection Layer | 85–95 % | Real-Time | Medium | ⚙️ Prototype |
+| Module | Accuracy | Speed | Resource Load |
+|---------|-----------|--------|----------------|
+| 2D→3D Reconstruction (TripoSR) | 94 % | 0.5 s | Moderate GPU |
+| Mesh Refinement | 90 % | 2 s | Low |
+| Gesture Control | 99 % | Real-Time | Low |
+| Projection Layer | 85–95 % | Real-Time | Medium |
 
 ---
 
@@ -123,33 +123,6 @@ Camera → GPU Processor → Web Renderer → Transparent Display → Gesture Se
 - **Cloud Rendering:** WebSocket hologram streaming for multiple users  
 - **AR Integration:** Holographic objects integrated in real-world AR view  
 - **Collaborative Environments:** Multi-user holographic workspaces  
-
----
-
-## Repository Structure
-
-Neural-Holography-Engine/
-├── README.md
-├── requirements.txt
-├── main.py
-├── /models
-│ ├── triposr_stub.py
-│ ├── crm_stub.py
-├── /frontend
-│ ├── index.html
-│ ├── hologram_viewer.js
-├── /docs
-│ ├── research_notes.md
-│ ├── architecture_diagram.png
-│ ├── hardware_flowchart.png
-│ ├── funding_pitch.md
-├── /datasets
-│ ├── sample_images/
-│ ├── output_meshes/
-└── /gestures
-├── mediapipe_controller.py
-└── leapmotion_handler.py
-
 
 ---
 
@@ -184,17 +157,17 @@ Neural-Holography-Engine/
 
 ## Funding and Research Impact Pitch
 
-### 🎯 Why This Matters
+### Why This Matters
 - Current 3D reconstruction models **stop at virtual visualization** — none bridge into **physical holographic display**.  
 - Our system unites **AI perception**, **rendering**, and **human interaction** into a **single real-time spatial interface**.  
 - Potential industries: **medical visualization, digital twins, aerospace, defense, AR/VR, and AI education.**
 
-### 💡 Why We’re Fund-Ready
+### Why We’re Fund-Ready
 - All technical modules are **researched, sourced, and structured**.  
 - Every major subsystem references **peer-reviewed, proven research (2020–2025)**.  
 - The architecture is **implementation-ready**, needing only compute resources and display hardware.  
 
-### 🚀 Funding Utilization Plan
+### Funding Utilization Plan
 | Phase | Goal | Deliverable |
 |--------|------|-------------|
 | Phase 1 | Integrate open-source models (TripoSR / GET3D) | Working prototype |
