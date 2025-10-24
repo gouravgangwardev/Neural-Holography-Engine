@@ -161,6 +161,3 @@ This repository is a **research-complete, implementation-ready foundation** for 
 It unites **computer vision**, **deep learning**, and **spatial computing** into one coherent system — bridging digital models and physical space.
 
 > “This isn’t a concept demo. It’s the prototype of the next human–AI interface paradigm.”
-
-
-### Software Pipeline
