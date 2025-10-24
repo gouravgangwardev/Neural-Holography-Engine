@@ -1,0 +1,56 @@
+# ===============================
+# Neural Holography Engine Requirements
+# ===============================
+
+# Core Deep Learning & AI Frameworks
+torch>=2.1.0
+torchvision>=0.16.0
+numpy>=1.26.0
+scipy>=1.11.0
+
+# Image Processing
+opencv-python>=4.10.0.84
+mediapipe>=0.10.15
+Pillow>=10.1.0
+imageio>=2.33.0
+scikit-image>=0.22.0
+
+# 3D Geometry & Rendering
+trimesh>=4.1.4
+pythreejs>=2.4.2
+open3d>=0.18.0
+pyglet>=2.0.15
+matplotlib>=3.8.0
+
+# Web & API Backend
+flask>=3.0.0
+fastapi>=0.110.0
+uvicorn>=0.30.0
+
+# Utilities
+tqdm>=4.66.1
+requests>=2.32.0
+python-dotenv>=1.0.1
+rich>=13.7.0
+
+# Optional Gesture/Hardware Support
+pyrealsense2>=2.55.0      # Intel RealSense depth cameras
+leapmotion-sdk>=1.2.0     # Leap Motion hand tracking
+azure-kinect>=1.4.1       # Azure Kinect depth sensor SDK
+
+# AI Model Integration (stubs / placeholders)
+transformers>=4.39.0
+diffusers>=0.26.0
+einops>=0.7.0
+torchmetrics>=1.4.0
+
+# Visualization & Dashboard (optional)
+plotly>=5.20.0
+dash>=2.16.1
+seaborn>=0.13.2
+jupyterlab>=4.2.5
+
+# Testing & Code Quality
+pytest>=8.1.1
+flake8>=7.1.0
+black>=24.3.0
