@@ -1,11 +1,11 @@
-# 🔮 Hologram Setup — Neural Holography Engine (NHE)
+#  Hologram Setup — Neural Holography Engine (NHE)
 **Document Type:** Engineering and Research Implementation Manual  
 **Version:** 2.0  
 **Last Updated:** 2025-10-25  
 
 ---
 
-## 🧭 Vision
+##  Vision
 
 > “We’re not just displaying data — we’re *manifesting* it.”
 
@@ -14,7 +14,7 @@ This document details the complete architecture—hardware, software, and integr
 
 ---
 
-## 1️⃣ System Architecture Overview
+##  System Architecture Overview
 
 | Layer | Function | Core Technologies | Output |
 |-------|-----------|-------------------|---------|
@@ -28,9 +28,9 @@ This document details the complete architecture—hardware, software, and integr
 
 ---
 
-## 2️⃣ Hardware Requirements
+##  Hardware Requirements
 
-### 🧩 Core System Specifications
+###  Core System Specifications
 
 | Component | Minimum | Recommended | Notes |
 |------------|----------|-------------|-------|
@@ -44,7 +44,7 @@ This document details the complete architecture—hardware, software, and integr
 
 ---
 
-### ⚙️ Physical Assembly Layout
+###  Physical Assembly Layout
 
 1. **Input Station:** Camera or upload interface connected to GPU host.  
 2. **Processing Node:** GPU workstation running neural reconstruction + mesh optimization.  
@@ -53,14 +53,13 @@ This document details the complete architecture—hardware, software, and integr
 5. **Networking Hub:** Optional local or cloud connection for remote rendering.
 
 [Camera] → [Neural Processor] → [Renderer] → [Display
-↑
-└── [Gesture Sensor]
+
 
 ---
 
-## 3️⃣ Software Stack
+##  Software Stack
 
-### 🧠 Backend (Python)
+###  Backend (Python)
 
 | Module | Library / Framework | Description |
 |--------|---------------------|--------------|
@@ -70,7 +69,7 @@ This document details the complete architecture—hardware, software, and integr
 | **API Layer** | FastAPI / Flask | Handles communication with frontend |
 | **Utility & Data Handling** | NumPy / SciPy / Open3D | Data transformation and metrics calculation |
 
-### 🌐 Frontend (Web)
+###  Frontend (Web)
 
 | Module | Library / Framework | Description |
 |--------|---------------------|--------------|
@@ -82,7 +81,7 @@ This document details the complete architecture—hardware, software, and integr
 
 ---
 
-## 4️⃣ Neural Reconstruction Pipeline
+##  Neural Reconstruction Pipeline
 
 ### Step 1 – Input Acquisition
 - Supported formats: `.jpg`, `.png`, `.tiff`, `.bmp`.  
@@ -111,10 +110,10 @@ This document details the complete architecture—hardware, software, and integr
 ### Step 5 – Gesture Control Integration
 - MediaPipe landmarks mapped to object transformation matrix.  
 - Supported gestures:
-  - ✋ Open Palm → Stop/Reset  
-  - 👌 Pinch → Zoom  
-  - ✊ Rotate/Translate  
-  - ✌️ Two-finger → Close/Hide Hologram  
+  -  Open Palm → Stop/Reset  
+  -  Pinch → Zoom  
+  -  Rotate/Translate  
+  -  Two-finger → Close/Hide Hologram  
 - Latency: < 20 ms; tracking accuracy ≈ 99 %.
 
 ### Step 6 – Holographic Projection
@@ -124,7 +123,7 @@ This document details the complete architecture—hardware, software, and integr
 
 ---
 
-## 5️⃣ Projection Techniques
+##  Projection Techniques
 
 ### 5.1 Pepper’s Ghost Pyramid
 - Uses 4 transparent acrylic panels at 45°.  
@@ -144,7 +143,7 @@ This document details the complete architecture—hardware, software, and integr
 
 ---
 
-## 6️⃣ Calibration & Alignment
+##  Calibration & Alignment
 
 1. **Display Alignment:** Place pyramid or display centered with camera axis.  
 2. **Sensor Positioning:** Depth sensor at 30–45 cm from user, facing display.  
@@ -155,14 +154,10 @@ This document details the complete architecture—hardware, software, and integr
 
 ---
 
-## 7️⃣ Networking Architecture
+##  Networking Architecture
 
 ### Local Workflow
-Frontend (Three.js + MediaPipe)
-↓ WebSocket / REST
-Backend (FastAPI + PyTorch)
-↓
-Renderer → Projection Display
+Frontend (Three.js + MediaPipe) → {WebSocket / REST} → Backend (FastAPI + PyTorch) → Renderer → Projection Display
 
 
 ### Cloud Workflow (Optional)
@@ -173,7 +168,7 @@ Renderer → Projection Display
 
 ---
 
-## 8️⃣ Performance Metrics
+##  Performance Metrics
 
 | Stage | Accuracy | Latency | GPU Load | Description |
 |--------|-----------|----------|-----------|--------------|
@@ -188,7 +183,7 @@ Renderer → Projection Display
 
 ---
 
-## 9️⃣ Safety Guidelines
+##  Safety Guidelines
 
 - **Thermal Control:** Maintain GPU < 70 °C during sustained operation.  
 - **Electrical:** Use grounded power supply; avoid static near sensors.  
@@ -198,7 +193,7 @@ Renderer → Projection Display
 
 ---
 
-## 🔟 Maintenance Checklist
+##  Maintenance Checklist
 
 | Frequency | Task | Notes |
 |------------|------|-------|
@@ -209,7 +204,7 @@ Renderer → Projection Display
 
 ---
 
-## 1️⃣1️⃣ Integration with NHE Core
+##  Integration with NHE Core
 
 | Subsystem | Integrated Models / Modules | Output to Next Stage |
 |------------|-----------------------------|----------------------|
@@ -221,7 +216,7 @@ Renderer → Projection Display
 
 ---
 
-## 1️⃣2️⃣ Expected Outcomes & Applications
+##  Expected Outcomes & Applications
 
 - **Medical Visualization:** 3D hearts, brains, organs reconstructed from 2D scans.  
 - **Industrial Design:** Rapid visualization of mechanical parts.  
@@ -231,7 +226,7 @@ Renderer → Projection Display
 
 ---
 
-## 1️⃣3️⃣ Research Impact in Our Work
+##  Research Impact in Our Work
 
 Each integrated component directly reinforces NHE’s mission:  
 - **TripoSR & GET3D** deliver near-instant single-image 3D reconstruction.  
@@ -244,7 +239,7 @@ Together, they convert *digital vision* into *physical experience*—the foundat
 
 ---
 
-## 🧾 Summary
+##  Summary
 
 | Category | Description |
 |-----------|--------------|
