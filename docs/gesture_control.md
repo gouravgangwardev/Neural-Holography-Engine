@@ -1,13 +1,4 @@
-# ✋ Gesture Control — Neural Holography Engine (NHE)
-
-**Document Type:** Research & Engineering Whitepaper  
-**Version:** 3.2  
-**Last Updated:** 2025-10-25  
-**Lead Authors:** Vikrit Research Division, Neural Holography Engine Project  
-
----
-
-## 🧭 Executive Overview
+##  Executive Overview
 
 The **Gesture Control Subsystem (GCS)** of the **Neural Holography Engine (NHE)** enables natural, touchless manipulation of holographic content through **AI-driven motion recognition**.  
 It translates **human intention** into **3D spatial commands** by leveraging real-time computer vision, deep neural models, and multi-sensor fusion.
@@ -17,7 +8,7 @@ It’s designed for **holographic rendering**, **AR/VR interaction**, and **spat
 
 ---
 
-## 1️⃣ Vision and Design Objectives
+##  Vision and Design Objectives
 
 | Objective | Target Specification |
 |------------|-----------------------|
@@ -30,30 +21,16 @@ It’s designed for **holographic rendering**, **AR/VR interaction**, and **spat
 
 ---
 
-## 2️⃣ System Architecture Overview
+##  System Architecture Overview
 
-Camera / Sensor Input
-↓
-Frame Preprocessing
-↓
-Landmark Detection (MediaPipe / OpenPose)
-↓
-Feature Extraction & Encoding (CNN / Transformer)
-↓
-Gesture Classification (DeepGestureNet)
-↓
-Command Mapping Layer
-↓
-Hologram API (WebSocket / FastAPI)
-↓
-3D Renderer (Three.js / Unity / Unreal)
+Camera / Sensor Input → Frame Preprocessing → Landmark Detection (MediaPipe / OpenPose) → Feature Extraction & Encoding (CNN / Transformer) → Gesture Classification (DeepGestureNet) → Command Mapping Layer → Hologram API (WebSocket / FastAPI) → 3D Renderer (Three.js / Unity / Unreal)
 
 
 This modular flow allows each component (sensor, model, or rendering engine) to evolve independently.
 
 ---
 
-## 3️⃣ Hardware Interfaces and Sensor Matrix
+##  Hardware Interfaces and Sensor Matrix
 
 | Sensor | Type | Depth | FPS | Interface |
 |--------|------|--------|-----|-----------|
@@ -67,7 +44,7 @@ This modular flow allows each component (sensor, model, or rendering engine) to 
 
 ---
 
-## 4️⃣ Software Stack
+##  Software Stack
 
 | Layer | Library | Function |
 |--------|----------|----------|
@@ -79,7 +56,7 @@ This modular flow allows each component (sensor, model, or rendering engine) to 
 
 ---
 
-## 5️⃣ Neural Methodology and Models
+##  Neural Methodology and Models
 
 ### A. **MediaPipe Hands (Google, 2023)**
 - **Architecture:** Two-stage CNN (Palm Detector + Landmark Regressor)
@@ -110,7 +87,7 @@ This modular flow allows each component (sensor, model, or rendering engine) to 
 
 ---
 
-## 6️⃣ Feature Extraction Pipeline
+##  Feature Extraction Pipeline
 
 | Stage | Method | Description |
 |--------|--------|-------------|
@@ -129,20 +106,20 @@ V_t = \frac{L_t - L_{t-1}}{\Delta t}, \quad
 
 ---
 
-## 7️⃣ Gesture Command Mapping
+##  Gesture Command Mapping
 
 | Gesture | Action | Description | Sensitivity |
 |----------|---------|--------------|--------------|
-| ✋ Open Palm | Reset Scene | Re-center hologram | Normal |
-| 👌 Pinch | Zoom | Scale along Z-axis | High |
-| ✊ Fist | Rotate | Apply rotational matrix | Medium |
-| 👉 Point | Select | Target specific holographic object | Normal |
-| 🤚 Swipe | Move | Translate hologram in XY plane | Medium |
-| ✌️ Two-Finger | Exit | Close active projection | Normal |
+|  Open Palm | Reset Scene | Re-center hologram | Normal |
+|  Pinch | Zoom | Scale along Z-axis | High |
+|  Fist | Rotate | Apply rotational matrix | Medium |
+|  Point | Select | Target specific holographic object | Normal |
+|  Swipe | Move | Translate hologram in XY plane | Medium |
+|  Two-Finger | Exit | Close active projection | Normal |
 
 ---
 
-## 8️⃣ Latency & Performance Metrics
+##  Latency & Performance Metrics
 
 | Metric | Value | Condition |
 |--------|--------|-----------|
@@ -154,7 +131,7 @@ V_t = \frac{L_t - L_{t-1}}{\Delta t}, \quad
 
 ---
 
-## 9️⃣ Calibration Workflow
+##  Calibration Workflow
 
 1. Position camera 50–70 cm from user at chest height.  
 2. Use neutral lighting (diffuse, non-directional).  
@@ -166,7 +143,7 @@ V_t = \frac{L_t - L_{t-1}}{\Delta t}, \quad
    
 ---
 
-## 🔟 Gesture Modeling Math
+##  Gesture Modeling Math
 
 For hand landmarks \( L_i = (x_i, y_i, z_i) \):
 
@@ -199,7 +176,7 @@ For hand landmarks \( L_i = (x_i, y_i, z_i) \):
 
 ---
 
-## 1️⃣1️⃣ Multi-Sensor Fusion (2025)
+## Multi-Sensor Fusion (2025)
 
 **Pipeline:**  
 RGB + Depth + IR → Temporal Buffer → Transformer Encoder → Unified Gesture Output → Command Mapper
@@ -213,7 +190,7 @@ h = \sum_m \alpha_m E_m
 
 ---
 
-## 1️⃣2️⃣ Benchmark Evaluation
+##  Benchmark Evaluation
 
 | Dataset | Classes | Accuracy | Latency | FPS | Notes |
 |----------|----------|-----------|----------|-----|-------|
@@ -227,7 +204,7 @@ h = \sum_m \alpha_m E_m
 
 ---
 
-## 1️⃣3️⃣ Integration with Holographic Rendering
+##  Integration with Holographic Rendering
 
 **Communication:** WebSocket + FastAPI → JSON protocol
 ## Latency Breakdown
@@ -243,7 +220,7 @@ h = \sum_m \alpha_m E_m
 
 ---
 
-## 1️⃣4️⃣ Research References
+##  Research References
 
 | Paper / Model           | Institution         | Year | Key Contribution                                   |
 |-------------------------|------------------|------|---------------------------------------------------|
@@ -256,7 +233,7 @@ h = \sum_m \alpha_m E_m
 
 ---
 
-## 1️⃣5️⃣ System Performance Metrics
+##  System Performance Metrics
 
 | Metric                          | Value       | Environment          |
 |---------------------------------|------------|--------------------|
@@ -268,7 +245,7 @@ h = \sum_m \alpha_m E_m
 
 ---
 
-## 1️⃣6️⃣ Future Enhancements
+##  Future Enhancements
 
 | Direction                   | Description                                                   |
 |------------------------------|---------------------------------------------------------------|
@@ -279,7 +256,7 @@ h = \sum_m \alpha_m E_m
 
 ---
 
-## 1️⃣7️⃣ Application Domains
+##  Application Domains
 
 - **Medical Imaging & Surgery Simulation:** Hands-free hologram manipulation (CRM + MeshHeart).  
 - **Industrial Maintenance:** Real-time part inspection and digital twin rotation (GET3D).  
@@ -289,7 +266,7 @@ h = \sum_m \alpha_m E_m
 
 ---
 
-## 1️⃣8️⃣ Security & Privacy Considerations
+##  Security & Privacy Considerations
 
 - **No Biometric Storage:** Only abstract feature vectors saved.  
 - **Optional Anonymization:** Depth-only mode avoids facial capture.  
@@ -299,7 +276,7 @@ h = \sum_m \alpha_m E_m
 
 ---
 
-## 1️⃣9️⃣ Impact on Neural Holography Engine (NHE)
+##  Impact on Neural Holography Engine (NHE)
 
 - Converts physical gestures into holographic transformations in **<30 ms**.  
 - Integrates seamlessly with real-time 3D reconstruction.  
