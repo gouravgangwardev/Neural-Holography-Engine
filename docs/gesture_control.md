@@ -229,16 +229,7 @@ h = \sum_m \alpha_m E_m
 
 ## 1️⃣3️⃣ Integration with Holographic Rendering
 
-**Communication:** WebSocket + FastAPI → JSON protocol:
-
-```json
-{
-  "gesture": "rotate",
-  "angle": 45,
-  "axis": "Y",
-  "speed": 1.2,
-  "timestamp": 1698240000
-}
+**Communication:** WebSocket + FastAPI → JSON protocol
 ## Latency Breakdown
 
 | Stage                 | Processing Time (ms) |
