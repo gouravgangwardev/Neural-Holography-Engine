@@ -1,0 +1,13 @@
+{
+  "model_name": "TripoSR",
+  "description": "Transformer-based single-image 3D reconstruction model",
+  "input_size": 512,
+  "voxel_resolution": 128,
+  "device": "cuda",
+  "batch_size": 1,
+  "precision": "float32",
+  "normalization": "0-1",
+  "inference_mode": "mock",
+  "output_format": "glb",
+  "notes": "This is a placeholder configuration for research/demo purposes. Replace 'inference_mode' with 'real' when actual pretrained weights are used."
+}
