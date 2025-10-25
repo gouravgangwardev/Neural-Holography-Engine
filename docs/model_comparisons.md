@@ -245,7 +245,7 @@ Each model contributes a unique function in the Neural Holography Engine:
 
 ---
 
-## 🔍 Conclusion
+##  Conclusion
 
 This comparison defines **the neural backbone of the Neural Holography Engine**.  
 Every model is analyzed for architecture, performance, and application fit.  
