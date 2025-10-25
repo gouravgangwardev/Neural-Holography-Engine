@@ -1,5 +1,3 @@
----
-
 ##  Executive Summary
 
 The **Neural Holography Engine (NHE)** is the **next-generation spatial computing platform**: converting **any 2D image into a fully interactive, real-time 3D hologram**.  
