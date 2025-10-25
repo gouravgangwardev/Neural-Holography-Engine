@@ -1,5 +1,5 @@
 
-## 🧭 Executive Overview
+##  Executive Overview
 
 The **Technical Specifications** provide a **comprehensive blueprint** for deploying the **Neural Holography Engine (NHE)**.  
 It encompasses **hardware, software, sensor integration, and performance expectations**, ensuring real-time, interactive holographic visualization.  
@@ -16,7 +16,7 @@ NHE guarantees **high visual fidelity (>90%), low latency (<35ms), and robust ge
 
 ---
 
-## 1️⃣ System Architecture
+##  System Architecture
 
 The NHE system is modular, layered, and designed for **scalable multi-domain deployment**.
 
@@ -36,7 +36,7 @@ The NHE system is modular, layered, and designed for **scalable multi-domain dep
 
 ---
 
-## 2️⃣ Hardware Specifications
+##  Hardware Specifications
 
 | Component                | Minimum Requirement                    | Recommended / Notes |
 |--------------------------|---------------------------------------|-------------------|
@@ -61,7 +61,7 @@ The NHE system is modular, layered, and designed for **scalable multi-domain dep
 
 ---
 
-## 3️⃣ Software Specifications
+##  Software Specifications
 
 | Module                   | Minimum Requirement                     | Recommended / Notes |
 |---------------------------|----------------------------------------|-------------------|
@@ -74,7 +74,7 @@ The NHE system is modular, layered, and designed for **scalable multi-domain dep
 
 ---
 
-## 4️⃣ Performance Metrics
+##  Performance Metrics
 
 | Metric                        | Target / Observed | Notes |
 |--------------------------------|-----------------|-------|
@@ -90,7 +90,7 @@ The NHE system is modular, layered, and designed for **scalable multi-domain dep
 
 ---
 
-## 5️⃣ Pipeline Timing Breakdown
+##  Pipeline Timing Breakdown
 
 | Stage                           | Time (ms) |
 |---------------------------------|-----------|
@@ -105,7 +105,7 @@ The NHE system is modular, layered, and designed for **scalable multi-domain dep
 
 ---
 
-## 6️⃣ Supported Domains & Use Cases
+##  Supported Domains & Use Cases
 
 | Domain                     | Optimal Model / Pipeline                | Notes |
 |-----------------------------|---------------------------------------|-------|
@@ -117,7 +117,7 @@ The NHE system is modular, layered, and designed for **scalable multi-domain dep
 
 ---
 
-## 7️⃣ Calibration & Alignment
+##  Calibration & Alignment
 
 - **Display Alignment:** Eye-level placement, holographic plane alignment.  
 - **Mesh Scale Normalization:** Mesh size adapted to display volume.  
@@ -129,7 +129,7 @@ The NHE system is modular, layered, and designed for **scalable multi-domain dep
 
 ---
 
-## 8️⃣ Safety, Redundancy & Fault Tolerance
+##  Safety, Redundancy & Fault Tolerance
 
 - Redundant GPU monitoring and thermal shutdown.  
 - UPS power backup for displays and sensors.  
@@ -139,7 +139,7 @@ The NHE system is modular, layered, and designed for **scalable multi-domain dep
 
 ---
 
-## 9️⃣ Future-Proofing & Enhancements
+##  Future-Proofing & Enhancements
 
 - Cloud rendering for multi-user holographic collaboration.  
 - AI-optimized mesh simplification for higher FPS.  
@@ -150,7 +150,7 @@ The NHE system is modular, layered, and designed for **scalable multi-domain dep
 
 ---
 
-## 🔟 Summary & Impact
+##  Summary & Impact
 
 The **Technical Specifications** ensure:
 
