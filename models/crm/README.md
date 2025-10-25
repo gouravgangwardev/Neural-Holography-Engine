@@ -43,27 +43,3 @@ model.eval()
 
 # Example inference on dual-view images
 mesh = model.infer(["path/to/view1.jpg", "path/to/view2.jpg"])
-
-## Configuration (`config.json`)
-
-json
-{
-  "model_name": "CRM",
-  "description": "Dual-view CNN for 3D anatomical reconstruction",
-  "input_size": 512,
-  "voxel_resolution": 128,
-  "device": "cuda",
-  "batch_size": 1,
-  "precision": "float32",
-  "normalization": "0-1",
-  "inference_mode": "mock",
-  "output_format": "glb",
-  "notes": "Placeholder configuration for research/demo. Replace 'inference_mode' with 'real' for actual pretrained weights."
-}
-
-@article{crm2024,
-  title={CRM: Dual-View Convolutional Neural Network for 3D Reconstruction},
-  author={Tsinghua University},
-  year={2024},
-  url={https://example.com/crm-paper}
-}
