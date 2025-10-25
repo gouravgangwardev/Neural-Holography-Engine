@@ -1,4 +1,4 @@
-# SpectraCALL
+# Neural Holography Engine
 ### From 2D Images to 3D Interactive Holograms — AI-Driven Spatial Reconstruction and Real-Time Volumetric Projection
 
 ---
