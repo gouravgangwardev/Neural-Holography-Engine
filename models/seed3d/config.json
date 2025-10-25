@@ -1,0 +1,14 @@
+{
+  "model_name": "Seed3D",
+  "description": "Foundation model for universal 3D asset generation",
+  "input_size": 512,
+  "voxel_resolution": 128,
+  "device": "cuda",
+  "batch_size": 1,
+  "precision": "float32",
+  "normalization": "0-1",
+  "inference_mode": "mock",
+  "output_format": "glb",
+  "multi_domain_support": true,
+  "notes": "Placeholder configuration for research/demo purposes. Replace 'inference_mode' with 'real' when actual pretrained weights are available. Supports cross-domain input for objects, environments, and anatomical structures."
+}
