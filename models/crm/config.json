@@ -1,0 +1,14 @@
+{
+  "model_name": "CRM",
+  "description": "Dual-view CNN for 3D anatomical reconstruction",
+  "input_size": 512,
+  "voxel_resolution": 128,
+  "device": "cuda",
+  "batch_size": 1,
+  "precision": "float32",
+  "normalization": "0-1",
+  "inference_mode": "mock",
+  "output_format": "glb",
+  "dual_view_input": true,
+  "notes": "Placeholder configuration for research/demo purposes. Replace 'inference_mode' with 'real' for actual pretrained weights. Supports dual-view images for medical reconstruction."
+}
