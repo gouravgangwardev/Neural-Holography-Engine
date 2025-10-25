@@ -1,19 +1,12 @@
-# 📚 Dataset References — Neural Holography Engine (NHE)
-
-**Document Type:** Research & Engineering Reference  
-**Version:** 1.1  
-**Last Updated:** 2025-10-25  
-**Lead Authors:** Vikrit Neural Systems Lab  
-
 ---
 
-## 🧭 Executive Overview
+##  Executive Overview
 
 This document catalogs the datasets utilized in the development and evaluation of the **Neural Holography Engine (NHE)**. Each entry provides comprehensive metadata, licensing information, and access details to facilitate reproducibility and transparency in research.
 
 ---
 
-## 📦 Dataset Inventory
+##  Dataset Inventory
 
 ### 1. **GET3D**
 
@@ -70,7 +63,7 @@ This document catalogs the datasets utilized in the development and evaluation o
 
 ---
 
-## 🔗 Citation Format
+##  Citation Format
 
 ```bibtex
 @misc{get3d2023,
