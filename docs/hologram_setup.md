@@ -52,6 +52,6 @@ This document details the complete architecture—hardware, software, and integr
 4. **Gesture Sensor:** Facing user; aligned with hologram center.  
 5. **Networking Hub:** Optional local or cloud connection for remote rendering.
 
-[Camera] → [Neural Processor] → [Renderer] → [Display]
+[Camera] → [Neural Processor] → [Renderer] → [Display
 ↑
 └── [Gesture Sensor]
