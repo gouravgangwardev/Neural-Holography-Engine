@@ -255,6 +255,3 @@ Together, they form a unified, implementation-ready research foundation for real
 
 ---
 
-**File:** `docs/model_comparisons.md`  
-**Author:** Neural Holography Engine Research Team  
-**Last Updated:** 2025-10-25
